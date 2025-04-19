@@ -15,6 +15,7 @@ const CustomCursor = () => {
   }, []);
 
   return (
+    
     <div
       className="custom-cursor"
       style={{

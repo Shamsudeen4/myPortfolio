@@ -7,12 +7,12 @@ import All from './All';
 import Project from "./Project";
 import Contact from "./Contact";
 import './App.css'
-// import CustomCursor from "./CustomCursor";
+import CustomCursor from "./CustomCursor";
 
 function App() {
   return (
     <BrowserRouter>
-    {/* <CustomCursor/> */}
+    <CustomCursor/>
     <Routes>
       <Route element={<All/>} path='/'/>
       <Route element={<About/>} path='/about'/>
