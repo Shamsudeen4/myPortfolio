@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.prjs{
+    /* display: flex; */
+  
+    width: 100%;
+    font-family: "Montserrat", sans-serif;   
+}
+.p1{
+    
+    width: 100%;
+    /* padding: 50px 50px; */
+    display: flex;
+ 
+
+}  
+.p2{
+    
+    width: 100%;
+    /* padding: 50px 50px; */
+    display: flex;
+    height: 380px;
+    flex-direction: row-reverse;
+
+}  
+.p3{
+    
+    width: 100%;
+    display: flex;
+    height: 370px;
+    flex-direction: row;
+
+}  
+.tosh{
+    width: 50%;
+    line-height: 65px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    backdrop-filter: opacity(50%);
+    justify-content: center;
+   
+} 
+
+
+.no1{
+    color: rgb(128, 128, 128);
+    font-size: 60px;
+    /* background-color: red; */
+}  
+
+.ghg h2{
+    font-size: 36px;
+    /* background-color: blue; */
+}
+.ghg{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    inset: 0;
+    padding: 0;
+    align-items: flex-start;
+    
+}
+.gh h2{
+    font-size: 44px;
+    /* background-color: blue; */
+}
+.gh{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    background-color: black;
+   
+    inset: 0;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    backdrop-filter: opacity(50%);
+}
+.p1 {
+    position: relative;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+  }
+  .access {
+   
+    width: 50%;
+    
+    height: 100%;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/toshy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+
+
+
+  }
+  
+  .access:hover .access {
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2px);
+    transform: scale(1.02);
+  }
+ 
+  .text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+        background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: opacity(50%);
+    transition: all 0.4s ease;
+  }
+ 
+  .access:hover .text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .text a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+  
+  .text a:hover {
+    color: #787777; /* Optional yellow or accent */
+    border-color: #787777;
+    transition: all 0.2s ease;
+
+  }
+  .tags{
+    display: flex;
+    gap: 10px;
+
+  }
+  .tagg {
+
+    background-color: #787777; /* gray-800 */
+    color: white;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 2px 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+ 
+    border-radius: 12px;
+
+  }
+ 
+  .text a{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .prjs{
+    display: flex;
+    
+  }
+  
+  .toshh{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+
+  }
+  .ghg{
+    display: flex;
+    align-items: flex-start;
+    
+    h2{
+        /* background-color: aqua; */
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }
+  
+  .ghg h5{
+    /* background-color: blue; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #787777  ;
+    font-size: larger;
+  }
+
+
+  .gh{
+    display: flex;
+    align-items: flex-start;
+       
+    h2{
+        /* background-color: aqua; */
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+  }
+  .gh p{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #787777  ;
+    font-size: larger;     ;    
+}
+.accesss {
+ 
+    width: 50%;
+    
+    height: 100%;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/webkwaraa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+
+
+
+  }
+  .accesss:hover .access {
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2px);
+    transform: scale(1.02);
+  }
+  .accesss:hover .text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+.acces {
+ 
+    width: 50%;
+    
+    height: 100%;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/foodiee.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+
+
+
+  }
+  .acces:hover .access {
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2px);
+    transform: scale(1.02);
+  }
+  .acces:hover .text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+.acce {
+ 
+    width: 50%;
+    
+    height: 100%;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/bookmarkk.png);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+
+
+
+  }
+  .acce:hover .access {
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2px);
+    transform: scale(1.02);
+  }
+  .acce:hover .text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .p4 {
+    position: relative;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+  }
+  .p4{
+    
+    width: 100%;
+    /* padding: 50px 50px; */
+    height: 370px;
+    display: flex;
+    flex-direction: row-reverse;
+}  
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.cont h2{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.cont p{
+    font-size: 18px;
+    color: #787777;
+}
+#Projectss{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hed{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px 0;    
+}
+.tosh{
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: fadeSlideUp 1s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeSlideUp{
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 750px) {
+  .p1, .p2, .p3, .p4{
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+
+  }
+  .tosh{
+    padding: 30px ;
+  }
+  .tosh, .access, .accesss, .acces, .acce{
+    width: 100%;
+  }
+  .no1{
+    font-size: 50px;
+  }
+  .ghg h2{
+    font-size: 30px;
+  }
+  .ghg h5{
+    font-size: 16px;
+    /* height: 15px; */
+  }
+  .gh h2{
+    font-size: 30px;
+  }
+  .gh h5{
+    font-size: 16px;
+    /* height: 15px; */
+  }
+  .access, .text{
+    /* height: 100vh; */
+  }
+.gh p{
+  font-size: 16px;
+  width: 80vw;
+  line-height: 20px;
+}
+.tagg:last-child{
+  display: none;
+}
+#Projectss{
+  padding: 30px 0;
+}
+}

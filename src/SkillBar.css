@@ -1,0 +1,159 @@
+.skill-bar-container {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .skill-bar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .bar-background {
+    height: 12px;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .bar-fill {
+    height: 100%;
+    background: linear-gradient(to right, #000000, #707070);
+    width: 0;
+    border-radius: 6px;
+    transition: width 1s ease-in-out;
+  }
+  .skillss{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    font-family: "DM Sans", sans-serif;
+  }
+  .technical{
+    flex-direction: column;
+    display: flex;
+    width: 35vw;
+    gap: 10px;
+    h3{
+        font-size: 30px;
+    }
+  }
+  .soft{
+    flex-direction: column;
+    display: flex;
+    width: 30vw;
+    gap: 10px;  
+    h3{
+        font-size: 30px;
+    }
+  }
+ 
+  .third h2{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin: 40px 0;
+  }
+  .tag{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    p{
+        font-size: 25px;
+    }
+  }
+  .sof{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  .sofg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sofg h3{
+    font-size: 30px;
+  }
+  .list{
+    display: flex;
+    gap: 30px;
+  }
+  .bsc h4{
+      font-size: 20px;
+  }
+  .fron h4{
+      font-size: 20px;
+  }
+  .skil{
+    padding: 100px 0;
+  }
+  @media screen and (max-width: 750px) {
+    .skil{
+      padding: 0;
+    }
+    .skillss{
+      flex-direction: column;
+      width: 100%;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+    .technical{
+      width: 80vw;
+      gap: 20px;
+      align-items: center;
+      .tech{
+        width: 80vw;
+      }
+      h3{
+        background-color: #707070;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    }
+    .soft{
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+      .sosk{
+        width: 80vw;
+      }
+      h3{
+        background-color: #707070;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    }
+    .sofg{
+      align-items: center;
+      h3{
+        width: 50vw;
+        text-align: center;
+        line-height: 33px;
+      }
+    }
+    .third h2{
+      margin: 20px 0;
+    }
+    .list{
+      flex-direction: column;
+      width: 80vw;
+    }
+  }
+
+
+
+  

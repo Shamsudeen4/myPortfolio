@@ -1,0 +1,166 @@
+/* style.css */
+.contact-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 20px;
+ 
+
+}
+
+.contact-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 100px 0 50px 0;
+  justify-content: center;
+  width: 50%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* .contact-form button {
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+
+  border-radius: 6px;
+  font-size: 1rem;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+} */
+
+.resume-link {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.resume-link a {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.resume-link a:hover {
+  background-color: #111;
+}
+.send{
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.send h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+.send p{
+  font-size: 20px;
+  width: 23vw;
+  text-align: center;
+}
+.forms{
+  display: flex;
+  gap: 70px;
+
+}
+.formt{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.slide-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: black;
+  background-color: #F5F6FA;
+  border: 2px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  z-index: 1;
+  width: 350px;
+}
+
+.slide-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  transition: width 0.4s ease;
+}
+
+.slide-btn:hover::before {
+  width: 100%;
+}
+
+.slide-btn:hover {
+  color: white;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .send h2{
+    font-size: 40px;
+    line-height: 32px;
+  }
+  .send p{
+    width: 80vw;
+  }
+  .formt{
+    width: 80vw;
+  }
+  .slide-btn{
+    width: 55vw;
+    height: 50px;
+  }
+}

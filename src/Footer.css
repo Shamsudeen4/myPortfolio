@@ -1,0 +1,81 @@
+.foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.say{
+    display: flex;
+    gap: 160px;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+.hell{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+}
+
+
+  .logos p{
+    outline: 2px solid white;
+    border-radius: 100%;
+    padding: 9px 13px;
+    color: white;
+    font-size: 20px;
+  }
+  .hell {
+    font-size: 25px;
+  }
+  .my{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #858585;
+    font-size: 22px;
+  }
+  .hell a{
+    color: #858585;
+  }
+  .yus{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .link{
+    display: flex;
+    gap: 20px;
+  }
+  .yus p{
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .yus{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .say{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+    .yus p{
+      width: 80vw;
+    }
+    
+  }
