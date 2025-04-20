@@ -101,7 +101,7 @@
     .skillss{
       flex-direction: column;
       width: 100%;
-      gap: 20px;
+      gap: 50px;
       justify-content: center;
       align-items: center;
     }
@@ -116,7 +116,7 @@
         background-color: #707070;
         color: white;
         padding: 10px 20px;
-        font-size: 20px;
+        font-size: 17px;
         text-transform: uppercase;
         letter-spacing: 5px;
       }
@@ -132,7 +132,7 @@
         background-color: #707070;
         color: white;
         padding: 10px 20px;
-        font-size: 20px;
+        font-size: 17px;
         text-transform: uppercase;
         letter-spacing: 5px;
       }
@@ -142,15 +142,20 @@
       h3{
         width: 50vw;
         text-align: center;
-        line-height: 33px;
+        line-height: 30px;
+        font-size: 30px;
       }
     }
     .third h2{
       margin: 20px 0;
+      font-size: 30px;
     }
     .list{
       flex-direction: column;
       width: 80vw;
+    }
+    .sof{
+      gap: 30px;
     }
   }
 
